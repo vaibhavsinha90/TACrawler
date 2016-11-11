@@ -8,7 +8,7 @@ from collections import OrderedDict
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-path="/Users/bolt/Desktop/Spring16/AIR/Proj635/Milestone2/textacy/Crawled_data/data_with_keywords/"
+path="/Users/.../Crawled_data/data_with_keywords/"
 file_list = []
 for filename in os.listdir(path):
 	if '.json' in filename:
