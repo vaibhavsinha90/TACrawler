@@ -50,7 +50,7 @@ def makeCorpus(review):
 global ReviewCorpus
 global idfDict
 global rc
-path="/Users/bolt/Desktop/Spring16/AIR/Proj635/Milestone2/textacy/Crawled_data/"
+path="/Users/.../Crawled_data/"
 file_list = []
 for filename in os.listdir(path+'data/'):
 	if '.json' in filename:
