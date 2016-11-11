@@ -53,7 +53,7 @@ def PlotDendogram(HierarchyOrder,i=None):
 
 
 global uniquekeys
-path="/Users/bolt/Desktop/Spring16/AIR/Proj635/Milestone2/textacy/Crawled_data/final_keywords/"
+path="/Users/.../Crawled_data/final_keywords/"
 file_list = []
 for filename in os.listdir(path):
 	if '.json' in filename:
